@@ -14,5 +14,5 @@ spec:
     spec:
       containers:
       - name: app
-        image: node:18
+        image: novadeploy
         command: ["npm", "test"]

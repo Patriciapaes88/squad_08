@@ -2,18 +2,23 @@
   "name": "demo-devops-ci-cd",
   "version": "1.0.0",
   "description": "Projeto DevOps para NovaDeploy Tech",
-  "main": "src/index.js",
+  "main": "src/site-novadeploy/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "start": "node src/site-novadeploy/index.js",
     "test": "jest"
   },
   "keywords": [],
   "author": "Equipe NovaDeploy",
   "license": "ISC",
   "type": "commonjs",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
   "devDependencies": {
     "jest": "^30.2.0"
   }
 }
+

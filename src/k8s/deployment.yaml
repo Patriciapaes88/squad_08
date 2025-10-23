@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: novadeploy-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: novadeploy
+  template:
+    metadata:
+      labels:
+        app: novadeploy
+    spec:
+      containers:
+      - name: app
+        image: node:18
+        command: ["npm", "test"]

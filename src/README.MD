@@ -6,7 +6,6 @@ Este projeto simula uma empresa fictícia que aplica práticas modernas de DevOp
 
 - CI/CD com GitHub Actions
 - Testes automatizados com Jest
-- Infraestrutura como Código com Terraform e Ansible
 - Containerização com Docker
 - Escalabilidade com Kubernetes
 - Cultura DevOps e documentação
@@ -16,3 +15,4 @@ Este projeto simula uma empresa fictícia que aplica práticas modernas de DevOp
 ```bash
 npm install
 npm test
+npm start
